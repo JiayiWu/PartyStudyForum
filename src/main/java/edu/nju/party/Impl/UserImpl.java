@@ -11,8 +11,15 @@ public class UserImpl implements UserService{
 
     @Override
     public boolean login(String userID, String password) {
+
         return false;
     }
+
+    @Override
+    public boolean register(User user) {
+        return false;
+    }
+
 
     @Override
     public User getInfo(String userID) {
